@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>  TickyBot - Your Support Ticket Slack Bot</title>    
+<link rel="stylesheet" type = "text/css" href = "ticky.css">
+<link rel="stylesheet" type="text/css" href="bootstrap.css">
+
+</head>
+<!--
+Home     -> index.html
+About    -> What Is TickyBot
+Features -> How It Works
+Add to Slack -> Slack button link
+-->
+
+<body>   
+<script src="ticky.js"></script>
+<script src="tricky.js"></script>
+
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="#sec1">About</a>
+  <a href="#sec2">Features</a>
+  <a href="https://slack.com/oauth/authorize?client_id=39189849459.249480535796&scope=commands,bot,users%2Eprofile%3Aread,im%3Aread,chat%3Awrite%3Abot,team%3Aread">Add to Slack</a>
+</div>
+
+<div id="sec1">
+    <div class="row">    
+        <div class="left">    
+        <h1><b>Ticky</b>Bot</h1>
+
+        <p class="col-md-6">Let your team manage their support tickets 100% inside Slack</p>
+        <!-- hover CSS effects on buttons-->
+        <a href="https://slack.com/oauth/authorize?client_id=39189849459.249480535796&scope=commands,bot,users%2Eprofile%3Aread,im%3Aread,chat%3Awrite%3Abot,team%3Aread" class="btn btn-lg" style = "background-color: white;"><img src="slack.png" width = "20px" height = "20px">Add to <b>Slack</b></a>
+        <br>
+        <br>
+        </div>
+
+        <div class="right">
+            <img id = "body" src="tickybody.png" class="col-md-6" height=60% width="75%">
+            <img id = "eyes" src="tickyeyes.png" class="col-md-6" height="15%" width="10%">
+        </div>
+    </div>
+</div>
+
+
+<div id="sec2">
+    <h2>What is <b>Ticky</b>Bot</h2>
+
+    <div class="row">
+        <p id=psec2a" class="col-md-6"><b>Ticky</b>Bot is a Slack Bot that lets you use support tickets on Slack. This way, you don't need to leave your beloved channel to assist your users, if you don't feel like it.</p>
+
+        <p id="psec2b" class="col-md-6">With <b>Ticky</b>Bot you can easily check if you've received new tickets, change their status, or write a reply, and the ticket will instantly update itself on our site.</p>
+    </div>
+
+    <p id="psec2c" class="col-lg-12">Support requests shouldn't be handled through Slack's direct messages. <i>Image about someone asking silly questions and the workplace admin asking him/her to open a support ticket so other admins could 
+    look into the issue.</i></p>
+</div>
+    
+<div id="sec3">
+    <h2>How it works</h2>
+    <div class="row">
+        <p id="sec3a" class="col-md-6"><img src="sec3a.png" width=100%>You can add <b>Ticky</b>Bot to your Slack workplace by scrolling down or <a href="https://tickybott.herokuapp.com/" title="clicking here" alt="Tickybot site">clicking here</a></p>
+
+        <p id="sec3b" class="col-md-6" ><img src="sec3b.png" width=100%>Your users can open a ticket by typing <span style="color: red">/ticket</span> and their message into the chatfield.</p>
+    </div>
+    <p id="sec3c"><img src="sec3c.png" width=100%>Once you or another admin solved their problems you can type <span style="color: red">/ticket close #id</span> to close the ticket</p>
+    <br>
+</div>
+
+<div id="sec4">
+    <h2>Start using TickyBot today</h2>
+
+    <p><b>Ticky</b>Bot allows Slack teams to manage their support tickets 
+    100% inside Slack, without having to switch between different apps.</p>
+
+     <a href="https://slack.com/oauth/authorize?client_id=39189849459.249480535796&scope=commands,bot,users%2Eprofile%3Aread,im%3Aread,chat%3Awrite%3Abot,team%3Aread" class="btn btn-lg" style = "background-color: purple;"><img src="slack2.png" width = "30px" height = "30px">Add to <b>Slack</b></a>
+
+    <p>... so you don't need to go back and forth with another app.</p>
+
+</div>
+
+</body>
+<a href="index.html" class="btn btn-md"><img src="top.png" width = "50px" height = "50px" padding-left = "200px" ></a>
+</html>
