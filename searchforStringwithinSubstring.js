@@ -22,3 +22,5 @@ function searchForSubstring(stringToSearch, stringToFind) {
     }
 
 }
+
+//made with pair partner Chloe
